@@ -24,3 +24,27 @@
   color: #ffffff;
   text-shadow: 0 1px 0 #528ecc;
 }
+
+.centering {
+  display: grid;
+  place-content: center;
+}
+
+.heading {
+  padding: 1px;
+  margin: 1px;
+  color: #ffffff;
+}
+
+.navigation {
+  padding: 3px;
+  margin: 3px;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #767575;
+  padding-bottom: 5px;
+}

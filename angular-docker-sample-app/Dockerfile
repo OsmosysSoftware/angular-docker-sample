@@ -31,7 +31,7 @@ FROM nginx:latest AS ngi
 ARG APP_NAME
 
 # Create App Path for build files for Angular 17 and above projects
-# For versions older than 17, replace APP_PATH with /usr/src/app/dist/
+# For versions older than 17, replace APP_PATH with /usr/src/app/dist/*
 ENV APP_PATH=/usr/src/app/dist/${APP_NAME}/browser
 
 # Copy the built Angular app to the default Nginx public folder
