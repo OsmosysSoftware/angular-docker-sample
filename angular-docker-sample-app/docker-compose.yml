@@ -1,5 +1,3 @@
-version: '1'
-
 services:
   angular-docker:
     build:

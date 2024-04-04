@@ -6,8 +6,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { WelcomeComponent } from './components/welcome/welcome.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/index.html', pathMatch: 'full' },
-  { path: 'index.html', component: WelcomeComponent },
+  { path: '', redirectTo: '/welcome', pathMatch: 'full' },
+  { path: 'welcome', component: WelcomeComponent },
   { path: 'crisis-list', component: CrisisListComponent },
   { path: 'heroes-list', component: HeroesListComponent },
   { path: '**', component: PageNotFoundComponent },
