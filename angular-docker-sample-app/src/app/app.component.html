@@ -1,0 +1,32 @@
+<div class="topbar">
+  <h1 class="heading">Sample Angular App</h1>
+  <nav class="navigation">
+    <a
+      class="button"
+      routerLink="/welcome"
+      routerLinkActive="activebutton"
+      ariaCurrentWhenActive="page"
+    >
+      Welcome
+    </a>
+    |
+    <a
+      class="button"
+      routerLink="/crisis-list"
+      routerLinkActive="activebutton"
+      ariaCurrentWhenActive="page"
+    >
+      Crisis Center
+    </a>
+    |
+    <a
+      class="button"
+      routerLink="/heroes-list"
+      routerLinkActive="activebutton"
+      ariaCurrentWhenActive="page"
+    >
+      Heroes
+    </a>
+  </nav>
+</div>
+<router-outlet/>

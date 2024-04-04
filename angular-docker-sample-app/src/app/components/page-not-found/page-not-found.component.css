@@ -1,0 +1,22 @@
+fieldset {
+  padding: 0 15px 10px 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 10px 0 0 0;
+  color: #000000;
+}
+
+#content {
+  margin: 0 0 0 2%;
+  position: relative;
+}
+
+.content-container {
+  background: #fff;
+  width: 96%;
+  margin-top: 8px;
+  padding: 10px;
+  position: relative;
+}
